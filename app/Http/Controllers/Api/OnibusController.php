@@ -32,5 +32,6 @@ class OnibusController extends Controller
     {
         $onibus->latitude = $request->latitude;
         $onibus->longitude = $request->longitude;
+        $onibus->save();
     }
 }
